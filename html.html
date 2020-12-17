@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <div class="heading">Sign Up</div>
+
+            <form  name="myForm" id="myForm" class="reg-form" onsubmit="myFunction(event)" >
+
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" value="" placeholder="Enter username"
+                    maxlength="5" minlength="3"><br>
+                <div class="error-msg" id="uname-error"></div>
+
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" value="" placeholder="Enter email"><br>
+                <div class="error-msg" id="email-error"></div>
+
+                <label for="password1">Password</label><br>
+                <input type="password" id="password1" name="password1" value="" placeholder="Enter password"><br>
+                <div class="error-msg" id="password1-error"></div>
+
+                <label for="password2">Confirm Password</label><br>
+                <input type="password" id="password2" name="password2" value=""
+                    placeholder="Enter password again"><br>
+                    <div class="error-msg" id="password2-error"></div>
+
+                <input type="submit" value="Submit" id="click" />​
+
+
+            </form>
+        </div>
+    </div>
+    <script src="./form.js"></script>
+</body>
+
+</html>

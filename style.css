@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100%;
+    /* height: 100px; */
+    width: 2;
+}
+
+.heading{
+    /* border:2px solid slateblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 4;
+    padding: 1; */
+    font-size: 2rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.reg-form{
+    /* border: 2px solid yellowgreen; */
+    font-size: 1.2rem;
+    /* inline-size: 1rem; */
+    /* padding: 1rem; */
+    justify-content: center;
+    margin: 2rem;
+}
+
+input{
+    padding: 0.5rem;
+    size: 1.25rem;
+    /* border-radius: 3px; */
+    width: 18.75rem;
+    box-sizing: border-box;
+}
+
+
+.error-msg{
+    font-size: 0.8rem;
+    color: red;
+    height: 1.25rem;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue;
+    padding: 1rem;
+    line-height: 2rem; */
+    background-color: cadetblue;
+    padding: 1rem;
+    /* inline-size: 1rem; */
+    line-height: 2rem;
+    /* border: 1px solid grey; */
+    box-shadow: 6px 8px 9px 0 rgba(0, 0, 0, 0.11);
+    background-color: #E5E8E8;
+    /* background-color: #77818b; */
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-radius: 3px;
+    width: 1;
+    width: 3;
+}
+
+#click{
+    margin-top: 0.8rem;
+    width: 100%;
+    background-color:#1A5276;
+    color: white;
+}
+
+.red-border{
+    border: 1px solid red;
+}
+
+.green-border{
+    border: 1px solid green;
+    background-color:#D6EAF8 ;
+}
